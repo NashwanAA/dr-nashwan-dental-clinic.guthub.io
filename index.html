@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مركز الدكتور نشوان الخولاني لطب الأسنان</title>
+    <style>
+        body {
+            font-family: 'Tahoma', 'Arial', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center; /* توسيط المحتوى */
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0056b3; /* لون أزرق داكن لاسم العيادة */
+            margin-bottom: 20px;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #007bff; /* لون أزرق أفتح للفروع */
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        a {
+            color: #17a2b8; /* لون سماوي للروابط */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .branch-info {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .logo-placeholder { /* يمكنك استبدال هذا بصورة شعار لاحقاً */
+            font-size: 2em;
+            font-weight: bold;
+            color: #28a745; /* لون أخضر للشعار المبدئي */
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-placeholder">شعار المركز (مؤقت)</div>
+        <h1>مركز الدكتور نشوان الخولاني لطب الأسنان</h1>
+
+        <div class="branch-info">
+            <h2>الفرع الرئيسي: إب - مفرق جبلة</h2>
+            <p><strong>الموقع:</strong> جوار الكريمي للصرافة</p>
+            <p><strong>للتواصل والاستفسار:</strong> <a href="tel:+967779690850">779690850</a></p>
+        </div>
+
+        <div class="branch-info">
+            <h2>فرع الدائري</h2>
+            <p><strong>الموقع:</strong> مبنى مختبرات نيولاب، مقابل حلويات موكا</p>
+            <p><strong>للتواصل والاستفسار:</strong> <a href="tel:+967783443899">783443899</a></p>
+        </div>
+
+        <footer>
+            <p>© <span id="year"></span> مركز الدكتور نشوان الخولاني لطب الأسنان. جميع الحقوق محفوظة.</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
