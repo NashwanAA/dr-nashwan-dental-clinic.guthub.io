@@ -1,2 +1,2 @@
-# dr-nashwan-dental-clinic.guthub.io
+# dr-nashwan-dental-clinic.github.io
 Dr.Nashwan clinic website
